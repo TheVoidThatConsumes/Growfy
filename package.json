@@ -1,0 +1,20 @@
+{
+  "name": "growfy",
+  "version": "1.0.0",
+  "description": "A marketing solutions landing page, built with TailwindCSS.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/main.css -o src/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheVoidThatConsumes/Growfy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheVoidThatConsumes/Growfy/issues"
+  },
+  "homepage": "https://github.com/TheVoidThatConsumes/Growfy#readme"
+}
