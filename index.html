@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles.css">
     <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    
     <title>Growfy</title>
 </head>
 
@@ -65,9 +66,9 @@
                 <h1 class="text-white font-Poppins font-medium text-6xl">Marketing solutions that grow your business.</h1>
                 <p class="text-neutral-400 font-Poppins font-light text-sm mt-5 mr-42 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, ad voluptatibus dolore vitae nostrum, distinctio amet voluptatum explicabo voluptates unde quas tempore sunt dolorum assumenda eum rerum fugiat aperiam!</p>
 
-                <div class="flex flex-row items-center gap-6 -ml-6 mt-5">
-                    <button class="flex justify-center align-middle px-6 py-3 bg-button ml-4 rounded-full text-white text-xs tracking-wider">Our Services</button>
-                    <button class="flex justify-center align-middle px-6 py-3 bg-neutral-800 ml-4 rounded-full text-white text-xs tracking-wider">Contact Us</button>
+                <div class="flex flex-row items-center gap-6 mt-5">
+                    <button class="flex justify-center align-middle px-6 py-3 bg-button rounded-full text-white text-xs tracking-wider font-Poppins font-light">Our Services</button>
+                    <button class="flex justify-center align-middle px-6 py-3 bg-neutral-800 ml-4 rounded-full text-white text-xs tracking-wider font-Poppins font-light">Contact Us</button>
                 </div>
             </div>
         </div>
@@ -78,57 +79,420 @@
     <section>
         <div>
             <div class="flex flex-col">
-                <h3 class="font-Poppins font-light text-sm text-neutral-400 text-center">TRUSTED BY STARTUPS AND LARGE ENTERPRISES</h3>
+                <h3 class="font-Poppins text-sm text-neutral-400 text-center">TRUSTED BY STARTUPS AND LARGE ENTERPRISES</h3>
 
-                <div class="relative flex overflow-x-hidden">
-                    
-                    <div class="py-12 animate-marquee flex gap-10 items-center">
-                        <span class="mr-8">
+                        <!--Marquee effect wrapper-->
+                <div class="relative flex overflow-x-hidden mb-6">
+                        <!--Left and Right divs to give fade in and out transparency-->
+                            <div class="absolute bg-gradient-to-r from-body to-transparent w-2/12 h-2/3 z-10 self-end"></div> 
+                            <div class="absolute bg-gradient-to-r from-transparent to-body w-2/12 h-2/3 z-10 self-end right-0"></div>   
+                        <!--End-->
+                        
+                        <!--Marquee effect items-->
+                    <ul class="flex items-center justify-around gap-12 p-4 animate-marquee whitespace-nowrap">
+                        <li>
                             <img src="assets/logo/luminous.svg" alt="">
-                        </span>
-                        <span class="mr-8">
+                        </li>
+                        <li>
                             <img src="assets/logo/sitemark.svg" alt="">
-                        </span>
-                        <span>
+                        </li>
+                        <li>
                             <img src="assets/logo/pronature.svg" alt="">
-                        </span>
-                        <span>
+                        </li>
+                        <li>
                             <img src="assets/logo/greenish.svg" alt="">
-                        </span>
-                        <span class="mt-3">
+                        </li>
+                        <li class="flex items-center mt-4 px-4">
                             <img src="assets/logo/waveless-1.svg" alt="">
-                        </span>
-                    </div>
+                            <span class="font-Poppins font-extrabold text-neutral-400 text-2xl mt-1 ml-1.5 mr-3">Waveless</span>
+                        </li>
+                    </ul>
 
-                    <div class="py-12 animate-marquee2 flex gap-10 items-center absolute">
-                        <span class="mr-8">
+                    <ul class="flex items-center justify-around gap-12 p-4 absolute top-0 animate-marquee2 whitespace-nowrap">
+                        <li>
                             <img src="assets/logo/luminous.svg" alt="">
-                        </span>
-                        <span class="mr-8">
+                        </li>
+                        <li>
                             <img src="assets/logo/sitemark.svg" alt="">
-                        </span>
-                        <span>
+                        </li>
+                        <li>
                             <img src="assets/logo/pronature.svg" alt="">
-                        </span>
-                        <span>
+                        </li>
+                        <li>
                             <img src="assets/logo/greenish.svg" alt="">
-                        </span>
-                        <span class="mt-3 flex flex-row items-center">
+                        </li>
+                        <li class="flex items-center mt-4 px-4">
                             <img src="assets/logo/waveless-1.svg" alt="">
-                            <p class="font-Poppins font-bold text-lg">Waveless</p>
-                        </span>
-                    </div>
-
-                    
+                            <span class="font-Poppins font-extrabold text-neutral-400 text-2xl mt-1 ml-1.5 mr-3">Waveless</span>
+                        </li>
+                    </ul>
                 </div>
+                        <!--Marquee end-->
             </div>
 
+                        <!--Services Section-->
 
-            <div>
+            <div class="flex flex-row-reverse justify-between mb-4 px-12 mx-10 items-center">
 
+                <div class="flex flex-row-reverse gap-4">
+
+                    <div class="flex flex-col gap-4">
+                        <div class="space-y-5 flex flex-col bg-neutral-800 rounded-3xl px-6 py-8 w-72">
+                            <span>
+                                <img src="assets/logo/dollar.svg" alt="" class="w-16 h-16">                                                               
+                            </span>
+
+                            <h3 class="font-Poppins font-normal text-white">Paid Advertising</h3>
+                            <p class="font-Poppins font-light text-neutral-400 mr-1 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit.</p>
+                        </div>
+
+                        <div class="space-y-5 flex flex-col bg-neutral-800 rounded-3xl px-6 py-8 w-72">
+                            <span>
+                                <img src="assets/logo/search.svg" alt="" class="w-16 h-16">                                                               
+                            </span>
+
+                            <h3 class="font-Poppins font-normal text-white">SEO Optimization</h3>
+                            <p class="font-Poppins font-light text-neutral-400 mr-1 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-4 mt-8">
+                        <div class="space-y-5 flex flex-col bg-neutral-800 rounded-3xl px-6 py-8 w-72">
+                            <span>
+                                <img src="assets/logo/thumb.svg" alt="" class="w-16 h-16">                                                               
+                            </span>
+
+                            <h3 class="font-Poppins font-normal text-white">Social Media Marketing</h3>
+                            <p class="font-Poppins font-light text-neutral-400 mr-1 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit.</p>
+                        </div>
+
+                        <div class="space-y-5 flex flex-col bg-neutral-800 rounded-3xl px-6 py-8 w-72">
+                            <span>
+                                <img src="assets/logo/mail.svg" alt="" class="w-16 h-16">                                                               
+                            </span>
+
+                            <h3 class="font-Poppins font-normal text-white">Mail Marketing</h3>
+                            <p class="font-Poppins font-light text-neutral-400 mr-1 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col items-start space-y-4 mr-16">
+                    <div class="flex justify-center rounded-md border py-1 px-4 border-neutral-600">
+                        <h3 class="font-Poppins text-neutral-600 text-xs">SERVICES</h3>
+                    </div>
+
+                    <h2 class="font-Poppins text-5xl text-white">Services we offer</h2>
+
+                    <p class="font-Poppins text-sm font-light text-neutral-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor.</p>
+
+                    <button class="flex align-middle px-6 py-3 bg-neutral-800 rounded-full text-white text-xs tracking-wider font-Poppins font-light">All services</button>
+                </div>
             </div>
         </div>
     </section>
 
+
+    <section>
+        <div class="flex flex-row items-center px-12 mx-10 justify-between gap-64 mb-6">
+            <div>
+                <div class="flex flex-row items-end gap-3 mt-6">
+                    <img src="assets/img/user2.png" alt="">
+                    <img src="assets/img/user1.png" alt="">
+                </div>
+            </div>
+
+            <div class="flex flex-col items-start space-y-4 ml-52">
+                <div class="flex justify-center rounded-md border py-1 px-4 border-neutral-600">
+                    <h3 class="font-Poppins text-neutral-600 text-xs">WHY CHOOSE US</h3>
+                </div>
+
+                <h2 class="font-Poppins text-5xl text-white">We help great brands scale with content marketing.</h2>
+
+                <p class="font-Poppins text-sm font-light text-neutral-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor.</p>
+
+                <ul class="-ml-3 space-y-4">
+                    <li class="flex flex-row items-center">
+                        <span class="flex items-center p-1 bg-neutral-800 rounded-full scale-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="#32CD32" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+                        </span>
+                        
+                        <p class="font-Poppins font-light text-neutral-400 text-xs">Lorem ipsum dolor sit, consectetur adpiscing elit.</p>
+                    </li>
+
+                    <li class="flex flex-row items-center">
+                        <span class="flex items-center p-1 bg-neutral-800 rounded-full scale-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="#32CD32" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+                        </span>
+                        
+                        <p class="font-Poppins font-light text-neutral-400 text-xs">Lorem ipsum dolor sit, consectetur adpiscing elit.</p>
+                    </li>
+
+                    <li class="flex flex-row items-center">
+                        <span class="flex items-center p-1 bg-neutral-800 rounded-full scale-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="#32CD32" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+                        </span>
+                        
+                        <p class="font-Poppins font-light text-neutral-400 text-xs">Lorem ipsum dolor sit, consectetur adpiscing elit.</p>
+                    </li>
+
+                    <li class="flex flex-row items-center">
+                        <span class="flex items-center p-1 bg-neutral-800 rounded-full scale-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="#32CD32" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>
+                        </span>
+                        
+                        <p class="font-Poppins font-light text-neutral-400 text-xs">Lorem ipsum dolor sit, consectetur adpiscing elit.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex flex-row pt-16 mb-16 items-start">
+            <div class="grid grid-flow-col grid-cols-2 grid-rows-2 gap-4 mr-52 ml-10 pl-12">
+                <div class="space-y-4 bg-neutral-800 rounded-2xl px-5 py-10">
+                    <h2 class="font-Poppins text-5xl text-white">1.2M+</h2>
+                    <p class="font-Poppins text-xs font-light text-neutral-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</p>
+                </div>
+    
+                <div class="space-y-4 bg-neutral-800 rounded-2xl px-5 py-10">
+                    <h2 class="font-Poppins text-5xl text-white">3.4B+</h2>
+                    <p class="font-Poppins text-xs font-light text-neutral-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</p>
+                </div>    
+                             
+                <div class="space-y-4 bg-neutral-800 rounded-2xl px-5 py-10">
+                    <h2 class="font-Poppins text-5xl text-white">1.2M+</h2>
+                    <p class="font-Poppins text-xs font-light text-neutral-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</p>
+                </div>
+    
+                <div class="space-y-4 bg-neutral-800 rounded-2xl px-5 py-10">
+                    <h2 class="font-Poppins text-5xl text-white">1.2M+</h2>
+                    <p class="font-Poppins text-xs font-light text-neutral-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</p>
+                    </div>
+                </div>
+
+                <div class="scale-110 mt-6 mr-10 pr-12 -ml-24">
+                    <img src="assets/img/user3.png" alt="" class="">
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="mx-10 px-12 mt-8 mb-6">
+            <div class="flex flex-col space-y-3 items-start">
+                <div class="flex justify-center rounded-md border py-1 px-4 border-neutral-600">
+                    <h3 class="font-Poppins text-neutral-600 text-xs">TESTIMONIALS</h3>
+                </div>
+
+                <h2 class="font-Poppins text-5xl text-white">See what our clients say</h2>
+
+                <p class="font-Poppins text-sm font-light text-neutral-400 mr-80">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</p>
+
+                <button class="flex justify-center align-middle px-6 py-3 bg-button ml-4 rounded-full text-white text-xs tracking-wider self-end">Get in touch</button>
+            </div>
+
+            <div class="grid grid-flow-col grid-cols-3 gap-5 space-x-6 mt-12">
+                <div class="px-6 py-6 bg-neutral-800 rounded-2xl">
+                    <div class="flex flex-row items-center gap-3 mt-5">
+                        <img src="assets/img/client1.png" alt="">
+                        <span class="font-Poppins text-xs font-light text-neutral-400">
+                            <p>John Doe</p>
+                            <p>Amazon Inc.</p>
+                        </span>
+                    </div>
+
+                    <h3 class="font-Poppins text-white text-lg mt-4 mb-3">"I recommend this agency"</h3>
+
+                    <p class="font-Poppins text-sm text-neutral-400 font-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</p>
+
+                    <span class="text-yellow-400 outline-none text-lg">&starf; &starf; &starf; &starf; &starf; </span>
+                </div>
+
+                <div class="px-6 py-6 bg-neutral-800 rounded-2xl">
+                    <div class="flex flex-row items-center gap-3 mt-5">
+                        <img src="assets/img/client2.png" alt="">
+                        <span class="font-Poppins text-xs font-light text-neutral-400">
+                            <p>Alice Smith</p>
+                            <p>Google Inc.</p>
+                        </span>
+                    </div>
+
+                    <h3 class="font-Poppins text-white text-lg mt-4 mb-3">"The support is awesome"</h3>
+
+                    <p class="font-Poppins text-xs text-neutral-400 font-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</p>
+
+                    <span class="text-yellow-400 outline-none text-lg">&starf; &starf; &starf; &starf; &starf; </span>
+                </div>
+
+                <div class="px-6 py-6 bg-neutral-800 rounded-2xl">
+                    <div class="flex flex-row items-center gap-3 mt-5">
+                        <img src="assets/img/client3.png" alt="">
+                        <span class="font-Poppins text-xs font-light text-neutral-400">
+                            <p>Sophia Miller</p>
+                            <p>Alibaba Inc.</p>
+                        </span>
+                    </div>
+
+                    <h3 class="font-Poppins text-white text-lg mt-4 mb-3">"A game changer for us"</h3>
+
+                    <p class="font-Poppins text-xs text-neutral-400 font-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</p>
+
+                    <span class="text-yellow-400 outline-none text-lg">&starf; &starf; &starf; &starf; &starf; </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="mx-10 px-12 mt-24 mb-24">
+
+            <div class="flex flex-col space-y-3 items-start">
+                <div class="flex justify-center rounded-md border py-1 px-4 border-neutral-600">
+                    <h3 class="font-Poppins text-neutral-600 text-xs">BLOG</h3>
+                </div>
+
+                <h2 class="font-Poppins text-5xl text-white">Read our <br> articles and news</h2>
+
+                <p class="font-Poppins text-sm font-light text-neutral-400 mr-80">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</p>
+
+                <button class="flex justify-center align-middle px-6 py-3 bg-button ml-4 rounded-full text-white text-xs tracking-wider self-end">Get in touch</button>
+            </div>
+
+            <div class="grid grid-flow-col grid-cols-3 gap-5 space-x-6 mt-12">
+                <div class="bg-neutral-800 rounded-2xl flex flex-col"> 
+                    <div>
+                        <img src="assets/img/art1.png" alt="" class="w-full rounded-t-xl">
+                    </div>
+                    <div class="px-5 py-5 flex flex-col items-start">
+                        <p class="font-Poppins font-light text-xs text-neutral-400 mt-3">August 28, 2022</p>
+                        <h3 class="font-Poppins text-white mt-3">How to Use Social Proof in Marketing</h3>
+                        <p class="font-Poppins font-light text-xs text-neutral-400 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper lorem.</p>
+                        <a href="#" class="text-blue-700 font-Poppins text-xs font-light mt-4">Read now</a>
+                    </div>
+                </div>
+
+                <div class="bg-neutral-800 rounded-2xl flex flex-col"> 
+                    <div>
+                        <img src="assets/img/art2.png" alt="" class="w-full rounded-t-xl">
+                    </div>
+                    <div class="px-5 py-5 flex flex-col items-start">
+                        <p class="font-Poppins font-light text-xs text-neutral-400 mt-3">August 28, 2022</p>
+                        <h3 class="font-Poppins text-white mt-3">Make a great first impression with these titles</h3>
+                        <p class="font-Poppins font-light text-xs text-neutral-400 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper lorem.</p>
+                        <a href="#" class="text-blue-700 font-Poppins text-xs font-light mt-4">Read now</a>
+                    </div>
+                </div>
+
+                <div class="bg-neutral-800 rounded-2xl flex flex-col"> 
+                    <div>
+                        <img src="assets/img/art3.png" alt="" class="w-full rounded-t-xl">
+                    </div>
+                    <div class="px-5 py-5 flex flex-col items-start">
+                        <p class="font-Poppins font-light text-xs text-neutral-400 mt-3">August 28, 2022</p>
+                        <h3 class="font-Poppins text-white mt-3">How to Grab Your Reader's Attention</h3>
+                        <p class="font-Poppins font-light text-xs text-neutral-400 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper lorem.</p>
+                        <a href="#" class="text-blue-700 font-Poppins text-xs font-light mt-4">Read now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="mx-10 px-12 mt-24 mb-24">
+            <div class="flex flex-row bg-neutral-800 justify-evenly items-center py-12 px-6 rounded-2xl">
+                <div class="flex flex-col text-center w-1/2">
+                    <h3 class="font-Poppins text-white text-xl">Ready to start scaling <br> your business now?</h3>
+                    <p class="font-Poppins text-xs font-light text-neutral-400 mt-3">Lorem ipsum dolor sit am consectetur <br> adipiscing varius enim in eros.</p>
+                </div>
+
+                <div class="flex flex-row items-start gap-4 mt-5">
+                    <button class="flex justify-center align-middle px-6 py-3 bg-button rounded-full text-white text-xs tracking-wider font-Poppins font-light">Our Services</button>
+                    <button class="flex justify-center align-middle px-6 py-3 bg-neutral-900 ml-4 rounded-full text-white text-xs tracking-wider font-Poppins font-light">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="mx-10 px-12 mt-8 mb-6">
+            <div class="grid grid-flow-col grid-cols-4 grid-rows-1 justify-between gap-6 align-top">
+                <div class="flex flex-col items-start">
+                    <div class="flex flex-row items-center gap-0 -ml-3">
+                        <img src="assets/img/logo.png" alt="" class="scale-50">
+                        <h2 class="text-white font-Poppins font-bold text-lg">Growfy</h2>
+                    </div>
+                    
+                    <p class="font-Poppins font-light text-neutral-400 text-xs mt-2 mr-4">Growfy is a template highly suitable for modern marketing agencies, digital studios, startups and businesses. The design is made in the dark style, which makes the site memorable and you can easily adapt it to your brand.</p>
+
+                    <div class="flex flex-row gap-4 items-center mt-4">
+                        <img src="assets/logo/linkedin.svg" alt="">
+                        <img src="assets/logo/twitter.svg" alt="">
+                        <img src="assets/logo/facebook.svg" alt="">
+                        <img src="assets/logo/youtube.svg" alt="">
+                        <img src="assets/logo/instagram.svg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="flex flex-col pl-16">
+                    <h3 class="font-Poppins text-white">Pages</h3>
+
+                    <ul class="flex flex-col space-y-2 text-neutral-400 font-Poppins text-xs font-light mt-3">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Packages</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+
+
+                <div class="flex flex-col">
+                    <h3 class="font-Poppins text-white">Utility Pages</h3>
+
+                    <ul class="flex flex-col space-y-2 text-neutral-400 font-Poppins text-xs font-light mt-3">
+                        <li>Instructions</li>
+                        <li>Style Guide</li>
+                        <li>Licenses</li>
+                        <li>Changelog</li>
+                        <li>Password-Protected</li>
+                        <li>Admin</li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col items-start mt-2">
+                    <h3 class="font-Poppins text-white">Subscribe to our Newsletter</h3>
+                    <p class="font-Poppins text-xs mt-3 text-neutral-400 font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+                    <div class="flex flex-row items-center mt-4 gap-3">
+                        <input type="email" name="Email" id="email" placeholder="Enter your email" class="rounded-full font-Poppins text-xs border border-neutral-800 bg-transparent caret-neutral-800 px-4 py-3 text-center">
+                        <button class="flex justify-center align-middle px-6 py-3 bg-button rounded-full text-white text-xs tracking-wider font-Poppins font-light">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="relative">
+        <div class="flex flex-col items-center">
+            <hr class="bg-neutral-800 border-none h-0.5 w-10/12 mt-6">
+            <p class="font-Poppins text-xs font-light text-neutral-400 my-4">&copy; Growfy - Made with <span class="text-red-600 text-xl">&hearts;</span> by <span class="font-mono text-sm">Anansi.dev</span>, 2023.</p> 
+        </div>
+    </footer>
 </body>
 </html>

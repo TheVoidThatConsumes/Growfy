@@ -4,7 +4,7 @@
   "description": "A marketing solutions landing page, built with TailwindCSS.",
   "main": "tailwind.config.js",
   "scripts": {
-    "build-css": "tailwindcss build -i src/main.css -o src/styles.css"
+    "build-css": "tailwindcss build src/main.css -o src/styles.css"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['../*/*.html'],
+  content: ['./index.html'],
   theme: {
     extend: {
       fontFamily: {
@@ -12,17 +12,17 @@ module.exports = {
         'button-hollow': '#81818B',
       },
       animation: {
-        marquee: 'marquee 30s linear loop infinite',
-        marquee2: 'marquee 30s linear loop infinite',
+        marquee: 'marquee 45s linear infinite',
+        marquee2: 'marquee2 45s linear infinite'
       },
       keyframes: {
         marquee: {
-        '0%': {transform: 'translateX(150%)'},
-        '100%': {transform: 'translateX(-100%)'},
+        '0%': {transform: 'translateX(0%)'},
+        '100%': {transform: 'translateX(-100%)'}
           },
         marquee2: {
         '0%': { transform: 'translateX(100%)'},
-        '100%': { transform: 'translateX(0%)'},
+        '100%': { transform: 'translateX(0%)'}
           },
       }
     },
