@@ -10,7 +10,7 @@
     <title>Growfy</title>
 </head>
 
-<body class="bg-body overflow-x-clip">
+<body class="bg-body container overflow-x-clip">
     
     <nav class="mt-2">
         <div class="flex flex-row justify-between items-center mx-6 md:mx-10 md:px-12">
@@ -52,7 +52,7 @@
     </nav>
 
 
-    <section>
+    <section class="snap-start">
 
         <div class="flex flex-col md:flex-row-reverse md:justify-between md:items-center mx-2 md:px-12 mt-2">
             <div class="flex flex-row gap-6 md:gap-12 scale-90 md:scale-75 pr-4 mt-2 mb-2">
@@ -80,7 +80,7 @@
     </section>
 
 
-    <section>
+    <section class="snap-center">
         <div class="mt-12">
             <div class="hidden md:flex flex-col">
                 <h3 class="font-Poppins text-sm text-neutral-400 text-center">TRUSTED BY STARTUPS AND LARGE ENTERPRISES</h3>
@@ -136,7 +136,7 @@
 
                         <!--Services Section-->
 
-            <div class="flex flex-col-reverse md:flex-row-reverse md:justify-between mt-6 mb-4 mx-8 md:px-12 md:mx-10">
+            <div class="flex flex-col-reverse md:flex-row-reverse md:justify-between items-center mt-6 mb-4 mx-8 md:px-12 md:mx-10">
 
                 <div class="flex flex-col md:flex-row-reverse gap-4 mt-12">
 
@@ -199,15 +199,15 @@
 
 
     <section>
-        <div class="flex flex-col md:flex-row mx-8 md:mx-10 md:px-12 md:justify-between justify-items-start lg:gap-64 mt-12 mb-6">
+        <div class="flex flex-col md:flex-row mx-8 md:mx-10 md:px-12 md:justify-around md:items-center justify-items-start lg:gap-64 mt-12 mb-6">
             
-                <div class="flex items-end gap-3 scale-75 -ml-7 w-9/12 md:w-full">
-                    <img src="assets/img/user2.png" alt="">
-                    <img src="assets/img/user1.png" alt="">
-                </div>
+            <div class="flex items-end gap-3 scale-75 -ml-7 w-9/12 md:w-full">
+                <img src="assets/img/user2.png" alt="">
+                <img src="assets/img/user1.png" alt="">
+            </div>
             
 
-            <div class="flex flex-col items-start space-y-4 lg:ml-52">
+            <div class="flex flex-col items-start space-y-4">
                 <div class="flex justify-center rounded-md border py-1 px-4 border-neutral-600">
                     <h3 class="font-Poppins text-neutral-600 text-xs">WHY CHOOSE US</h3>
                 </div>
@@ -258,19 +258,21 @@
                     </li>
                 </ul>
             </div>
+            
         </div>
     </section>
 
 
     <section>
         <div class="flex flex-col-reverse md:flex-row mt-16 mb-16">
+
             <div class="grid grid-flow-row grid-rows-4 grid-cols-1 mx-8 md:grid-flow-col md:grid-cols-2 md:grid-rows-2 gap-8 md:gap-4 md:mr-52 md:ml-10 md:pl-12">
-                <div class="space-y-4 bg-neutral-800 rounded-2xl px-5 py-10 self-start mr-12 md:mr-0">
+                <div class="space-y-4 bg-neutral-800 rounded-2xl px-5 py-10 self-start md:self-auto mr-12 md:mr-0">
                     <h2 class="font-Poppins text-5xl text-white">1.2M+</h2>
                     <p class="font-Poppins text-xs font-light text-neutral-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</p>
                 </div>
     
-                <div class="space-y-4 bg-neutral-800 rounded-2xl px-5 py-10 self-end ml-12 md:ml-0">
+                <div class="space-y-4 bg-neutral-800 rounded-2xl px-5 py-10 self-end md:self-auto ml-12 md:ml-0">
                     <h2 class="font-Poppins text-5xl text-white">3.4B+</h2>
                     <p class="font-Poppins text-xs font-light text-neutral-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</p>
                 </div>    
@@ -436,8 +438,10 @@
 
     <section>
         <div class="mx-8 md:mx-10 md:px-12 mt-8 mb-6">
-            <div class="grid grid-flow-row grid-cols-2 grid-rows-1 md:grid-flow-col md:grid-cols-4 md:grid-rows-1 justify-between gap-6 md:align-top">
-                <div class="flex flex-col items-start col-span-full">
+
+            <div class="grid grid-flow-row grid-rows-1 grid-cols-3 gap-6 items-start md:grid md:grid-flow-col">
+
+                <div class="col-span-full lg:flex flex-col items-start lg:mr-96">
                     <div class="flex flex-row items-center gap-0 -ml-3">
                         <img src="assets/img/logo.png" alt="" class="scale-50">
                         <h2 class="text-white font-Poppins font-bold text-lg">Growfy</h2>
@@ -454,8 +458,8 @@
                     </div>
                 </div>
 
-
-                <div class="flex flex-col md:pl-16">
+                
+                <div class="flex flex-col md:col-span-4 lg:-ml-80">
                     <h3 class="font-Poppins text-white">Pages</h3>
 
                     <ul class="flex flex-col space-y-2 text-neutral-400 font-Poppins text-xs font-light mt-3">
@@ -469,7 +473,8 @@
                 </div>
 
 
-                <div class="flex flex-col">
+                
+                <div class="flex flex-col md:col-span-3 lg:-ml-44">
                     <h3 class="font-Poppins text-white">Utility Pages</h3>
 
                     <ul class="flex flex-col space-y-2 text-neutral-400 font-Poppins text-xs font-light mt-3">
@@ -482,11 +487,11 @@
                     </ul>
                 </div>
 
-                <div class="flex flex-col col-span-full items-start mt-2">
+                <div class="flex flex-col items-start mt-2 col-span-3">
                     <h3 class="font-Poppins text-white">Subscribe to our Newsletter</h3>
                     <p class="font-Poppins text-xs mt-3 text-neutral-400 font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
 
-                    <div class="flex flex-col md:flex-row md:items-center mt-4 gap-3 overflow-clip">
+                    <div class="flex flex-col w-full md:flex-row md:items-center mt-4 gap-3 overflow-clip">
                         <input type="email" name="Email" id="email" placeholder="Enter your email" class="rounded-full font-Poppins text-xs border border-neutral-800 bg-transparent caret-neutral-800 px-4 py-3 md:text-center">
                         <button class="flex justify-center align-middle px-6 py-3 bg-button rounded-full text-white text-xs tracking-wider font-Poppins font-light">Subscribe</button>
                     </div>
